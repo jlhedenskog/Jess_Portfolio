@@ -86,6 +86,7 @@
     <Content Include="css\style.css" />
     <Content Include="css\style.css.map" />
     <Content Include="css\style.scss" />
+    <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -102,8 +103,10 @@
     <Content Include="fonts\slick.woff" />
     <Content Include="form\contact.php" />
     <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\BugTracker.png" />
     <Content Include="images\dots-bg-light.svg" />
     <Content Include="images\dots-bg.svg" />
+    <Content Include="images\Financial Portal.png" />
     <Content Include="images\logo-b-dark.svg" />
     <Content Include="images\logo-b-light.svg" />
     <Content Include="images\logo-dark.svg" />
@@ -111,6 +114,7 @@
     <Content Include="images\map-light.png" />
     <Content Include="images\map-light.svg" />
     <Content Include="images\map.svg" />
+    <Content Include="images\Portfolio-Picture-Placeholder.jpg" />
     <Content Include="images\shapes\1.svg" />
     <Content Include="images\shapes\10.svg" />
     <Content Include="images\shapes\11.svg" />
@@ -173,6 +177,9 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
