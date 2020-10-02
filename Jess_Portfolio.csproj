@@ -103,10 +103,12 @@
     <Content Include="fonts\slick.woff" />
     <Content Include="form\contact.php" />
     <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\Blog Post Coming Soon!.png" />
     <Content Include="images\BugTracker.png" />
     <Content Include="images\Coming soon!.png" />
     <Content Include="images\dots-bg-light.svg" />
     <Content Include="images\dots-bg.svg" />
+    <Content Include="images\Financial Portal API.png" />
     <Content Include="images\Financial Portal.png" />
     <Content Include="images\FIZZ.png" />
     <Content Include="images\logo-b-dark.svg" />
