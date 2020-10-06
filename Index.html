@@ -128,8 +128,9 @@
 
 					<!-- social icons -->
 					<ul class="social-icons light list-inline mb-0 mt-4">
-						<li class="list-inline-item"><a href="https://www.linkedin.com/in/jessica-hedenskog/"><i class="fab fa-linkedin"></i></a></li>
-						<li class="list-inline-item"><a href="https://github.com/jlhedenskog"><i class="fab fa-github"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.linkedin.com/in/jessica-hedenskog/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+						<li class="list-inline-item"><a href="https://github.com/jlhedenskog" target="_blank"><i class="fab fa-github"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/SheWhoCodesALot" target="_blank"><i class="fab fa-twitter"></i></a></li>
 
 
 					</ul>
@@ -453,7 +454,7 @@
 								Financial API
 							</a>
 							<div id="financial-api-project" class="white-popup zoom-anim-dialog mfp-hide">
-								<div class="d-flex justify-content-center"><img src="images/Financial Portal.png" style="border-radius:5px;" height="590" width="280" alt="Title" /></div>
+								<div class="d-flex justify-content-center"><img src="images/Financial Portal API.png" style="border-radius:5px;" height="590" width="280" alt="Title" /></div>
 								<h2>Financial Portal (API)</h2>
 								<p>This is the future home of the Financial Portal (API).</p>
 								<!--<a href="#" class="btn btn-default">Show Me The Money!</a>-->
@@ -736,7 +737,7 @@
 								</a>
 							</div>
 							<div class="details">
-								<h4 class="my-0 title"><a href="#">All About Bootstrap</a></h4>
+								<h4 class="my-0 title"><a href="#">Anything and Everything About Bootstrap</a></h4>
 								<ul class="list-inline meta mb-0 mt-2">
 									<li class="list-inline-item">2020</li>
 									<li class="list-inline-item">Jessica Hedenskog</li>
@@ -749,7 +750,7 @@
 
 			</div>
 
-		</section>
+		
 
 		<!-- section contact -->
 		<section id="contact">
@@ -768,9 +769,9 @@
 						<div class="contact-info">
 							<h3 class="wow fadeInUp">Let's talk about everything!</h3>
 							<p class="wow fadeInUp">
-								<ul>
-									<li>Location: 1231 Shields Rd. Kernersville, NC 27284</li>
-									<li>Email: jesscodesalot@gmail.com</li>
+								<ul class="fa-ul">
+									<li><i class=" fa-li fa fa-map-marker-alt"></i>Location: 1231 Shields Rd. Kernersville, NC 27284</li>
+									<li> <i class="fa-li fa fa-envelope"></i>Email: jesscodesalot@gmail.com</li>
 								</ul>
 						</div>
 					</div>
@@ -875,8 +876,6 @@
 	<script src="js/infinite-scroll.min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/slick.min.js"></script>
-	<script src="js/contact.js"></script>
-	<script src="js/validator.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/morphext.min.js"></script>
 	<script src="js/parallax.min.js"></script>
@@ -928,12 +927,15 @@
 							confirmButtonText: "You're Welcome",
                             confirmButtonColor: '#FF4C60'
 						});
+                        $('#contact-form').trigger("reset");
 					}, (err) => {
 						btn.value = 'Send Email';
 						alert(JSON.stringify(err));
 					});
 			});
 	</script>
+
+	
 
 </body>
 </html>

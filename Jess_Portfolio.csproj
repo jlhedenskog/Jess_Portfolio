@@ -153,7 +153,6 @@
     <Content Include="js\slick.min.js" />
     <Content Include="js\validator.js" />
     <Content Include="js\wow.min.js" />
-    <Content Include="Properties\HtmlPage2.html" />
     <Content Include="Web.config" />
     <Content Include="webfonts\fa-brands-400.eot" />
     <Content Include="webfonts\fa-brands-400.svg" />
